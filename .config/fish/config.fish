@@ -12,9 +12,14 @@ if status is-interactive
     alias restart='systemctl reboot'
     alias hx='helix'
     alias catsay='cowsay -f sillycat'
-    alias gprep='git add *; git status'
+    
+    alias gprep='git add --all; git status'
     alias gsend='git commit && git push'
     alias gstat='git status'
+    alias gcom='git commit'
+    alias gadd='git add'
+    alias gstow='gprep; gcom; stow --adopt .'
+    
     alias sysup='flatpak update && yay'
     alias sysclean='pacman -Qtdq | sudo pacman -Rns -'
     alias sps='sudo pacman -S'
