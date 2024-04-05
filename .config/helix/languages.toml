@@ -1,0 +1,17 @@
+[[language]]
+name = "css"
+auto-format = false
+language-servers = [ "vscode-css-language-server" ]
+
+[[language]]
+name = "html"
+auto-format = false
+language-servers = [ "vscode-html-language-server" ]
+
+[[language]]
+name = "rust"
+auto-format = false
+language-servers = [ "rust-analyzer" ]
+
+[language-server.rust-analyzer.config.check]
+command = "clippy"
