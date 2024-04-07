@@ -25,6 +25,7 @@ if status is-interactive
     alias sps='sudo pacman -S'
 
     alias cls='clear && consoledeco'
+    alias rst='cd && cls'
 
     function consoledeco
         echo ------- Welcome to Arch Linux! -------                                                                                                                                                               
