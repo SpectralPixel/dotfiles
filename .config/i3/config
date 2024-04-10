@@ -58,7 +58,7 @@ bindsym $mod+Return exec ~/.i3-scripts per-workspace-opener.py
 bindsym $mod+q kill
 
 # A more modern dmenu replacement is rofi:
-bindsym $mod+f exec ~/.config/rofi/launchers/type-3/launcher.sh
+bindsym $mod+f exec ~/.config/i3/rofi-opener.sh
 ###bindsym $mod+c exec "rofi -show filebrowser"
 
 # change focus

@@ -24,6 +24,6 @@ match cur_workspace:
     case 10:
         program_to_run = "flatpak run com.valvesoftware.Steam"
     case _:
-        program_to_run = "kitty"
+        program_to_run = "~/.config/i3/rofi-opener.sh"
 
 os.system(f"i3-msg exec {program_to_run}")
