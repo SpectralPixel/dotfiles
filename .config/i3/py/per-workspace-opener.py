@@ -11,6 +11,8 @@ for ws in workspaces:
 match cur_workspace:
     case 1:
         program_to_run = "firefox"
+    case 2 | 3:
+        program_to_run = "kitty"
     case 4:
         program_to_run = "nautilus"
     case 5:
