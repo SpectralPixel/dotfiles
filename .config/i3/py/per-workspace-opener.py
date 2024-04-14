@@ -15,7 +15,7 @@ match cur_workspace:
         program_to_run = "kitty"
     case 4:
         program_to_run = "nautilus"
-    case 5:
+    case 6:
         program_to_run = "betterbird"
     case 7:
         program_to_run = "obs"
