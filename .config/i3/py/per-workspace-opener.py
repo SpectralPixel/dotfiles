@@ -27,6 +27,8 @@ match cur_workspace:
         program_to_run = "flatpak run com.valvesoftware.Steam"
     case 11:
         program_to_run = "qbittorrent"
+    case 12:
+        program_to_run = "virtualbox"
     case _:
         program_to_run = "~/.config/i3/rofi-opener.sh"
 
