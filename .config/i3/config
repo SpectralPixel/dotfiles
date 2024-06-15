@@ -183,7 +183,7 @@ exec_always --no-startup-id picom -b                                            
 exec_always --no-startup-id feh --bg-fill $HOME/Pictures/Desktop-Backgrounds/fadebloodmoon.jpg             # set desktop bg
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh                      # launch riced polybar (the bar at the top of the screen)
 ###exec_always --no-startup-id setxkbmap -layout us,de -option grp:win_space_toggle # allow for quick keyboard language layout switching with WinKey+Space
-exec_always --no-startup-id setxkbmap -layout us,de -variant intl 
+exec_always --no-startup-id setxkbmap -layout us\(intl\),de 
 exec_always --no-startup-id /usr/bin/prime-offload
 exec_always --no-startup-id /usr/bin/wired
 
@@ -191,3 +191,4 @@ exec_always --no-startup-id /usr/bin/wired
 #exec_always --no-startup-id 
 
 exec --no-startup-id i3-msg exec 'workspace number 11; exec /usr/bin/qbittorrent'
+
