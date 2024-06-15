@@ -52,7 +52,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a relevant app
-bindsym $mod+Return exec ~/.i3-scripts per-workspace-opener.py
+bindsym $mod+Return exec ~/Documents/i-opener/target/release/i-opener
 
 # kill focused window
 bindsym $mod+q kill
@@ -183,7 +183,7 @@ exec_always --no-startup-id picom -b                                            
 exec_always --no-startup-id feh --bg-fill $HOME/Pictures/Desktop-Backgrounds/fadebloodmoon.jpg             # set desktop bg
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh                      # launch riced polybar (the bar at the top of the screen)
 ###exec_always --no-startup-id setxkbmap -layout us,de -option grp:win_space_toggle # allow for quick keyboard language layout switching with WinKey+Space
-exec_always --no-startup-id setxkbmap -layout us,de 
+exec_always --no-startup-id setxkbmap -layout us,de -variant intl 
 exec_always --no-startup-id /usr/bin/prime-offload
 exec_always --no-startup-id /usr/bin/wired
 

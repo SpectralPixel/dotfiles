@@ -13,8 +13,8 @@ if status is-interactive
     alias hx='helix'
     alias catsay='cowsay -f sillycat'
 
-    alias gprep='git add --all; git status'
-    alias gsend='git commit && git push >/dev/null && echo "Commited and pushed succesfully!"'
+    alias gprep='git add --all >/dev/null; git status'
+    alias gsend='git commit --quiet && git push --quiet && echo "Commited and pushed succesfully!"'
     alias gstat='git status'
     alias gcom='git commit'
     alias gadd='git add'
